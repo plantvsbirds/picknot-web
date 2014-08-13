@@ -1,0 +1,26 @@
+{
+  "name": "picknot-web",
+  "version": "1.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "colors": "^0.6.2",
+    "connect-mongo": "*",
+    "ecstatic": "^0.5.4",
+    "ejs": "^1.0.0",
+    "ejs-locals": "*",
+    "express": "3.5.1",
+    "express-partials": "*",
+    "express3-ejs-layout": "0.0.1",
+    "mongodb": "^1.4.8",
+    "node-sina-weibo": "0.0.9",
+    "request": "^2.34.0",
+    "utility": "^0.1.12",
+    "weibo": "^0.6.11",
+    "weibo-api": "^0.1.2",
+    "weixin-api": "*",
+    "socket.io": "^1.0.6"
+  }
+}

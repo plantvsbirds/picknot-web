@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Pic Knot设置</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="alternate icon" type="image/png" href="http://amazeui.org/i/favicon.png">
+  <link rel="stylesheet" href="http://amazeui.org/css/amui.all.min.css"/>
+  <style>
+    .header {
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 200%;
+      color: #333;
+      margin-top: 30px;
+    }
+    .header p {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+  <div class="am-g">
+    <h1>Pic Knot</h1>
+    <p>超赞的智能相框<br/>社交账号设置</p>
+  </div>
+  <hr />
+</div>
+<div class="am-g">
+  <div class="col-lg-6 col-md-8 col-sm-centered">
+    <br>
+    <form method="post" class="am-form" action="/set">
+      <label for="email">设备ID</label>
+    <div class="am-input-group">
+      <span class="am-input-group-label">#</span>
+      <input type="text" class="am-form-field" placeholder="Username" name="device" value="<%= device %>" disabled>
+
+    </div>
+      <label for="email">新浪微博</label>
+    <div class="am-input-group">
+      <span class="am-input-group-label">@</span>
+      <input type="text" class="am-form-field" placeholder="Username" name="sina">
+
+    </div>
+    <br>
+    <button type="button" class="am-btn am-btn-primary am-btn-block" onclick="$(this).button('loading');location.href = '/set/<%= device %>/' + $('[name=sina]')[0].value " >Submit</button>
+
+    </form>
+    <hr>
+    <p>© 2014 Pic Knot</p>
+  </div>
+</div>
+<script src="http://libs.baidu.com/zepto/1.1.3/zepto.min.js"></script>
+<script>window.Zepto || document.write('<script src="/assets/js/zepto.min.js?1.1.3"><\/script>')</script>
+<script src="/assets/js/amui.js"></script>
+<script src="http://cdn.staticfile.org/handlebars.js/1.3.0/handlebars.min.js
+"></script>
+<script src="/assets/js/amui.widget.helper.js"></script>
+</body>
+</html>
