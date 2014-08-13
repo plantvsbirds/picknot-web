@@ -8,8 +8,8 @@ Pic Knot相框框硬件为pcDuino或Raspberry Pi等类似微小尺寸电脑板+�
 
 团队成员 | 介绍
 :--------|:-----------------------:  
-谢  敏   | 上海交通大学设计学院学生
-刘  璐   | 上海交通大学设计学院学生
+谢  敏   | 上海交通大学媒体与设计学院学生
+刘  璐   | 上海交通大学媒体与设计学院学生
 张志齐   | 上海交通大学电院学生
 林  鸿   | 厦门一中学生
 谷  玺   | 负责管理运营和市场策划，联接user和designer
@@ -18,14 +18,14 @@ Pic Knot相框框硬件为pcDuino或Raspberry Pi等类似微小尺寸电脑板+�
 #INTRODUCTION TO PROJECT PICKNOT
 *Cloud, Picture frame and TV shows, united*
 
-PicKnot can be a gift from children to elders. PicKnot syncs with PicKnot backend deployed on cloud(such as Windows Azure) which downloads and caches photos and videos posted on children's SNS, therefore giving parents a chance to get to know their children's life, closely. (Social value of PicKnot)
+PicKnot can be a gift from children to elders. PicKnot syncs with PicKnot backend deployed on cloud(such as Windows Azure) which saves photos and videos posted on children's SNS, shows photos and videos on TV or monitors connected, therefore giving parents a chance to get to know their children's life, closely. (Social value of PicKnot)
 
 PicKnot runs on pcDuinom Raspberry or other mini linux boxes connected with TV or monitors of any size. The PicKnot hardware itself can be a smart TV box itself, which has great business potential. It can also run as an app in existing smart TV platforms or existing video websites, together with PicKnot backend on cloud, PicKnot can also be available to existing users of these platforms. (Business potential of PicKnot)
 
 Authors       | Bio
 :-------------|:-----------------------:  
-Min Xie       | Student at School of Design, SJTU
-Lu Liu        | Student at School of Design, SJTU
+Min Xie       | Student at School of Media and Design, SJTU
+Lu Liu        | Student at School of Media and Design, SJTU
 Zhiqi Zhang   | Student at School of Electronic Information and Electrical Engineering, SJTU
 Hong Lin      | Student at Xiamen No.1 High School
 Xi Gu         | On charge of operation and marketing, connecting user with designer
